@@ -1,7 +1,7 @@
 import pickle
 import MeCab
 import unicodedata
-with open('jarujaru3.txt', "r", encoding="utf-8") as f:
+with open('title_data.txt', "r", encoding="utf-8") as f:
       content = f.read()
       c = content.split('\n')
 nouns = []
